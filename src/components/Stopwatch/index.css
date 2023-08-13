@@ -1,0 +1,71 @@
+/* Write CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+}
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  color: #333333;
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.timer-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 250px;
+  padding: 10px;
+}
+.time-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: row;
+}
+.start-button {
+  background-color: #1db05f;
+  margin-right: 24px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 20px;
+  font-family: roboto;
+}
+.stop-button {
+  background-color: #ef0d36;
+  margin-right: 24px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 20px;
+  font-family: roboto;
+}
+.reset-button {
+  background-color: #eaa800;
+  margin-right: 24px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 20px;
+  font-family: roboto;
+}
